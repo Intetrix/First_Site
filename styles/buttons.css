@@ -1,0 +1,34 @@
+.primary,
+.secondary {
+    color: white;
+    font-family:"Gideon", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.primary {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #4452FE;
+    border: none;
+}
+
+.primary:hover {
+    background:#161f8f;
+}
+
+.secondary {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.secondary:hover {
+    color: grey;
+    border-color: grey;
+}

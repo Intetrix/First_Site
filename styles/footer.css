@@ -1,0 +1,63 @@
+.footer {
+    display: flex; /*пишем флекс родителю, чтобы линки и футер инфо шли в одну строку*/
+    justify-content: space-around;
+    margin-top: 150px;
+    padding-top: 107px;
+    padding-bottom: 107px;
+}
+
+.footer_links {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+}
+
+.link_title {
+    font-size: 20px;
+    font-family: "Gideon",sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.links a {
+    margin-bottom: 19px;
+    text-decoration: none;
+    font-family: "Gideon",sans-serif;
+    color: white;
+}
+
+.links a:hover {
+    color: gray;
+}
+
+.location_info img,
+.phone_info img {
+    margin-right: 17px;
+}
+
+.location_info,
+.phone_info {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Gideon",sans-serif;
+}
+
+.phone_info {
+    margin-top: 10px;
+}
+
+.info_logo {
+    margin-top: 40px;
+}
+
+.info_logo a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+
