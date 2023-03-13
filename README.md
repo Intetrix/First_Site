@@ -1,3 +1,3 @@
-# First_Site
+# My first site
 First site I made myself
-intetrix.github.io/First_Site/
+(https://intetrix.github.io/First_Site/)
